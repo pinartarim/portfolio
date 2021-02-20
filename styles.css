@@ -6,3 +6,16 @@ body {
     color: black;
     margin-left: 20px;
   }
+div
+{
+  color:blanchedalmond
+
+}
+
+#header{
+  left: 50%;
+  margin-left: -500px;
+  background:url(header.png) no-repeat;
+  width:1000px;
+  height:200px;
+}
