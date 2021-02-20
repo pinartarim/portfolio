@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>UYE OL</h1>
+</head>
+<body>
+<form>
+<table border="0" cellpadding="5" cellspacing="5">
+<tr>
+<td>* E-Posta:</td><td><input name="ePosta" type="email" placeholder="Lütfen e-posta giriniz." required/></td>
+</tr>
+<tr>
+<td>* Şifre:</td><td> <input name="password" type="password" placeholder="Lütfen şifre giriniz." required></td>
+</tr>
+<tr>
+<td>* Şifre Tekrar: </td><td><input name="inputRepeatPassword" type="password" placeholder="Lütfen tekrar şifre giriniz." required></td>
+</tr>
+<tr>
+<td>* Ad: </td><td><input name="firstName" type="text" required/></td>
+</tr>
+<tr>
+<td>* Soyad: </td><td><input name="lastName" type="text" required/></td>
+</tr>
+<tr>
+<td>Doğum Tarihi: </td><td><input name="lastName" type="date"/></td>
+</tr>
+<tr>
+<td>Semtiniz:</td><td>
+ <select id="areas" name="areaName">
+ <option value="area">Bakırköy (Ataköy 3. Kısım)</option>	
+ <option value="area1">Bakırköy (Ataköy 4. Kısım)<option>	
+ <option value="area2">Bakırköy (Ataköy 5. Kısım)</option>	
+ <option value="area3">Bakırköy (Ataköy 6. Kısım)</option>	
+ <option value="area4">Bakırköy (Ataköy 7. Kısım)</option>	
+ <option value="area5">Bakırköy (Ataköy 8. Kısım)</option>	
+ <option value="area6">Bakırköy (Ataköy 9. Kısım)</option>	
+ <option value="area7">Bakırköy (Basınköy Mah.)</option>	
+ <option value="area8">Bakırköy (Cevizlik Mah.)</option>	
+ <option value="area9">Bakırköy (Kartaltepe Mah. - İncirli)	</option>
+ <option value="area10">Bakırköy (Kartaltepe Mah.)</option>
+ <option value="area11">Bakırköy (Osmaniye Mah.)</option>
+ <option value="area12">Bakırköy (Sakızağacı Mah.)</option>
+ <option value="area13">Bakırköy (Şenlikköy Mah. - Florya)</option>
+ <option value="area14">Bakırköy (Şenlikköy Mah.)</option>
+ <option value="area15">Bakırköy (Yenimahalle Mah.)</option>
+ <option value="area16">Bakırköy (Yeşilköy Atatürk Havalimanı)</option>
+ <option value="area17">Bakırköy (Yeşilköy Mah. - İDTM)	</option>
+ <option value="area18">Bakırköy (Yeşilköy Mah.)</option>
+ <option value="area19">Bakırköy (Yeşilyurt Mah.)</option>
+ <option value="area20">Bakırköy (Zeytinlik Mah.)</option>
+ <option value="area21">Bakırköy (Zuhuratbaba Mah.)</option>
+ <option value="area22">Başakşehir (Altınşehir Mah.)</option>
+ <option value="area23">Başakşehir (Başak Mah. - 4. Etap)</option>
+ <option value="area24">Başakşehir (Başak Mah. - 5. Etap)</option>
+ <option value="area25">Başakşehir (Başak Mah.)	</option>
+ <option value="area26">Başakşehir (Başakşehir Mah.)</option>
+ <option value="area27">Başakşehir (Güvercintepe Mah.)</option>
+ <option value="area28">Başakşehir (İkitelli OSB)</option>
+ <option value="area29">Başakşehir (Şahintepe Mah.)</option>
+ <option value="area30">Başakşehir (Şamlar Mah.)</option>
+ <option value="area31">Başakşehir (Ziya Gökalp Mah.)</option>
+ <option value="area32">Bayrampaşa (Altıntepsi Mah.)</option>
+ <option value="area33">Bayrampaşa (Cevatpaşa Mah.)</option>
+ <option value="area34">Bayrampaşa (İsmetpaşa Mah.)</option>
+ <option value="area35">Bayrampaşa (Kartaltepe Mah.)</option>
+ <option value="area36">Bayrampaşa (Kocatepe Mah.)</option>
+ <option value="area37">Bayrampaşa (Muratpaşa Mah.)</option>
+ <option value="area38">Bayrampaşa (Orta Mah.)</option>
+ <option value="area39">Bayrampaşa (Terazidere Mah.)</option>
+ <option value="area40">Bayrampaşa (Vatan Mah.)</option>
+ <option value="area41">Bayrampaşa (Yenidoğan Mah.)</option>
+ <option value="area42">Bayrampaşa (Yıldırım Mah.)</option>
+ <option value="area43">Beşiktaş (Abbasağa Mah.)</option>
+ <option value="area44">Beşiktaş (Akat Mah.)</option>
+ <option value="area45">Beşiktaş (Arnavutköy Mah.)</option>
+ <option value="area46">Beşiktaş (Balmumcu Mah.)</option>
+ <option value="area47">Beşiktaş (Bebek Mah.)</option>
+ <option value="area48">Beşiktaş (Cihannuma Mah.)</option>
+ <option value="area49">Beşiktaş (Dikilitaş Mah.)</option>
+ <option value="area50">Beşiktaş (Etiler Mah.)</option>
+ <option value="area51">Beşiktaş (Gayrettepe Mah.)</option>
+ <option value="area52">Beşiktaş (Konaklar Mah.)</option>
+ <option value="area53">Beşiktaş (Kültür Mah.)</option>
+ <option value="area54">Beşiktaş (Kuruçeşme Mah.)</option>
+ <option value="area55">Beşiktaş (Levazım Mah.)</option>
+ <option value="area56">Beşiktaş (Levent Mah.)</option>
+ <option value="area57">Beşiktaş (Mecidiye Mah.)</option>
+ <option value="area58">Beşiktaş (Muradiye Mah.)</option>
+ <option value="area59">Beşiktaş (Nisbetiye Mah.)</option>
+ <option value="area60">Beşiktaş (Ortaköy Mah.)</option>
+ <option value="area61">Beşiktaş (Sinanpaşa Mah.)</option>
+ <option value="area62">Beşiktaş (Türkali Mah.)</option>
+ <option value="area63">Beşiktaş (Ulus Mah.)</option>
+ <option value="area64">Beşiktaş (Yıldız Mah.)</option>
+ <option value="area65">Beykoz (Acarlar Mah.)</option>
+ <option value="area66">Beykoz (Akbaba Mah.)</option>
+ <option value="area67">Beykoz (Alibahadır Mah.)</option>
+ <option value="area68">Beykoz (Anadoluhisarı Mah.)</option>
+ <option value="area69">Beykoz (Baklacı Mah.)</option>
+ <option value="area70">Beykoz (Çamlıbahçe Mah.)</option>
+ <option value="area71">Beykoz (Çavuşbaşı Mah.)</option>
+ <option value="area72">Beykoz (Çengeldere Mah.)</option>
+ <option value="area73">Beykoz (Çiftlik Mah.)</option>	
+ <option value="area74">Beykoz (Çiğdem Mah.)</option>
+ <option value="area75">Beykoz (Çubuklu Mah.)</option>
+ <option value="area76">Beykoz (Dereseki Mah.)</option>
+ <option value="area77">Beykoz (Elmalı Mah.)</option>
+ <option value="area78">Beykoz (Fatih Mah.)</option>
+ <option value="area79">Beykoz (Göksu Mah.)</option>
+ <option value="area80">Beykoz (Görele Mah.)</option>
+ <option value="area81">Beykoz (Göztepe Mah.)</option>
+ <option value="area82">Beykoz (Gümüşsuyu Mah.)</option>
+ <option value="area83">Beykoz (İncirköy Mah.)</option>
+ <option value="area84">Beykoz (Kanlıca Mah.)</option>
+ <option value="area85">Beykoz (Kavacık Mah.)</option>
+ <option value="area86">Beykoz (Mahmutşevketpaşa Mah.)</option>
+ <option value="area87">Beykoz (Merkez Mah.)</option>
+ <option value="area88">Beykoz (Örnekköy Mah.)</option>
+ <option value="area89">Beykoz (Ortaçeşme Mah.)</option>
+ <option value="area90">Beykoz (Paşabahçe Mah.)</option>
+ <option value="area91">Beykoz (Polonezköy Mah.)</option>
+ <option value="area92">Beykoz (Rüzgarlıbahçe Mah.)</option>
+ <option value="area93">Beykoz (Soğuksu Mah.)</option>
+ <option value="area94">Beykoz (Tokatköy Mah.)</option>
+ <option value="area95">Beykoz (Vaniköy Mah.)</option>
+ <option value="area96">Beykoz (Yalıköy Mah.)</option>
+ <option value="area97">Beykoz (Yavuz Selim Mah.)</option>
+ <option value="area98">Beykoz (Yeni Mah.)</option>
+ <option value="area99">Beykoz (Zerzavatçı Mah.)</option>
+ <option value="area100">Beylikdüzü (Adnan Kahveci Mah.)</option>
+ <option value="area101">Beylikdüzü (Barış Mah.)</option>
+ <option value="area102">Beylikdüzü (Büyükşehir Mah.)</option>
+ <option value="area103">Beylikdüzü (Cumhuriyet Mah.)</option>
+ <option value="area104">Beylikdüzü (Dereağzı Mah.)</option>
+ <option value="area105">Beylikdüzü (Gürpınar Mah.)</option>
+
+  </select> </td>
+</tr>
+<tr>
+<td> Cinsiyet:</td>
+<td>
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Male"> Other </td>
+</tr>
+</table>
+<tr>
+<td>
+<table width="600">
+<input type="checkbox" id="1" name="1">
+<label for="vehicle1"> <a href="http://www.google.com" target="_blank">Kullanıcı Sözleşmesini</a> ve <a href="http://www.google.com" target="_blank">Kişisel Verilerin Korunması Politikasını </a><br>
+kabul ediyor ve kullanıcı deneyimimin geliştirilmesi için Yemek Sepeti’nin verilerimi <br>
+ işleyebileceği, yurtiçi/yurtdışı iş ortaklarıyla paylaşabileceği hususunda açık rıza veriyorum.</label>
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" id="2" name="2">
+<label for="vehicle2"> Bana özel hazırlanmış veya benim için geçerli olan kampanyalar, indirimler ve haberler hakkında e-posta almak istiyorum.</label>
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" id="3" name="3">
+<label for="vehicle3"> Bana özel hazırlanmış veya benim için geçerli olan kampanyalar, indirimler ve haberler hakkında SMS almak istiyorum.</label>
+</td>
+</tr>
+
+<td>
+  <input type="submit" value="UYE OL"/>
+ </td>
+</table>
+</form>
+
+</body>
+</html>
